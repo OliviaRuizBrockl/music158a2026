@@ -3,12 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 2,
-            "revision": 0,
+            "minor": 1,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
+<<<<<<< Updated upstream
         "rect": [ 2540.0, 227.0, 1340.0, 849.0 ],
         "boxes": [
             {
@@ -55,12 +56,25 @@
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 799.0, 105.0, 24.0, 24.0 ]
+=======
+        "rect": [ 71.0, 95.0, 1080.0, 780.0 ],
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-19",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 14.0, 508.0, 78.0, 22.0 ],
+                    "text": "send~ tospat"
+>>>>>>> Stashed changes
                 }
             },
             {
                 "box": {
                     "id": "obj-18",
                     "maxclass": "newobj",
+<<<<<<< Updated upstream
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
@@ -192,10 +206,18 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 781.0, 34.0, 42.0, 22.0 ],
                     "text": "/dump"
+=======
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 696.27, 613.9, 54.0, 22.0 ],
+                    "text": "delay 20"
+>>>>>>> Stashed changes
                 }
             },
             {
                 "box": {
+<<<<<<< Updated upstream
                     "id": "obj-11",
                     "linecount": 4,
                     "maxclass": "comment",
@@ -203,10 +225,20 @@
                     "numoutlets": 0,
                     "patching_rect": [ 788.0, 348.0, 72.0, 60.0 ],
                     "text": "binaural spatial headphone mix!"
+=======
+                    "id": "obj-17",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 664.8, 545.27, 131.0, 22.0 ],
+                    "text": "random-in-range 0 100"
+>>>>>>> Stashed changes
                 }
             },
             {
                 "box": {
+<<<<<<< Updated upstream
                     "id": "obj-8",
                     "lastchannelcount": 0,
                     "maxclass": "live.gain~",
@@ -240,11 +272,43 @@
                     "numoutlets": 0,
                     "patching_rect": [ 827.0, 77.0, 328.0, 33.0 ],
                     "text": "connect the audio outputs from your 8 channel output from spat5.spat~ to the 8 inputs on the spat5.pan~ below"
+=======
+                    "id": "obj-15",
+                    "maxclass": "number",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 488.0, 455.0, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 564.0, 609.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 479.0, 609.0, 24.0, 24.0 ]
+>>>>>>> Stashed changes
                 }
             },
             {
                 "box": {
                     "id": "obj-6",
+<<<<<<< Updated upstream
                     "linecount": 4,
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -265,6 +329,14 @@
                         "parameter_enable": 0
                     },
                     "text": "spat5.pan~ @inputs 8 @outputs 2 @initwith \"/panning/type binaural\""
+=======
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 483.63, 548.09, 93.0, 22.0 ],
+                    "text": "route start done"
+>>>>>>> Stashed changes
                 }
             },
             {
@@ -327,6 +399,76 @@
             },
             {
                 "box": {
+<<<<<<< Updated upstream
+=======
+                    "id": "obj-22",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 456.0, 374.0, 430.0, 33.0 ],
+                    "text": "speaker/number 8 for CNMAT main room where 0 degrees is directly in front of the \"sweet spot\" (i.e. -45 is left front 45 is right front (you need 8 in a circle)"
+                }
+            },
+            {
+                "box": {
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor2": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
+                    "bgfillcolor_color": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgfillcolor_color1": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
+                    "bgfillcolor_proportion": 0.5,
+                    "bgfillcolor_type": "color",
+                    "fontsize": 14.0,
+                    "gradient": 1,
+                    "id": "obj-21",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 456.0, 409.0, 181.0, 24.0 ],
+                    "text": "/speakers/az ? ? ? ? ? ? ? ?",
+                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-20",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 456.0, 326.0, 229.0, 20.0 ],
+                    "text": "speaker/number 8 for simulating in stereo"
+                }
+            },
+            {
+                "box": {
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor2": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_autogradient": 0.0,
+                    "bgfillcolor_color": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgfillcolor_color1": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
+                    "bgfillcolor_proportion": 0.5,
+                    "bgfillcolor_type": "color",
+                    "fontsize": 14.0,
+                    "gradient": 1,
+                    "id": "obj-46",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 456.0, 346.0, 361.0, 24.0 ],
+                    "text": "/speakers/az -45 -33.75 -22.5 -11.25 11.25 22.5 33.75 45",
+                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                }
+            },
+            {
+                "box": {
+>>>>>>> Stashed changes
                     "id": "obj-16",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -342,12 +484,19 @@
                     "data": {
                         "clips": [
                             {
+<<<<<<< Updated upstream
                                 "absolutepath": "impls02-wood-smash.wav",
                                 "filename": "impls02-wood-smash.wav",
+=======
+                                "absolutepath": "Macintosh HD:/Users/oliviaruizbrockl/Documents/Max 9/Packages/CNMAT-MMJ-Depot-master/media/Audio/mixing_sounds/impls19-doorclose-powerful.wav",
+                                "filename": "impls19-doorclose-powerful.wav",
+>>>>>>> Stashed changes
                                 "filekind": "audiofile",
-                                "id": "u394008561",
-                                "loop": 0,
-                                "content_state": {                                }
+                                "id": "u280008913",
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
                             }
                         ]
                     },
@@ -408,8 +557,13 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
+<<<<<<< Updated upstream
                     "patching_rect": [ 104.5, 191.0, 632.0, 85.0 ],
                     "text": "PART 2:  reconfigure the spat5 objects to accommodate 8 sources and 8 speakers.\nCreate an 8 channel mix piece using sounds selected from the soundfiles listed in the menu below \n(note: you must have the CNMAT Depot installed properly for sounds to load). OPTION: If you want to create your two new presets PART 1 for your 8-channel spat, then you can just submit one file with both parts -- otherwise submit two max patches."
+=======
+                    "patching_rect": [ 114.0, 251.0, 632.0, 53.0 ],
+                    "text": "PART 2:  reconfigure the spat5 objects to accommodate 8 sources and 8 speakers.\nCreate an 8 channel mix piece using sounds selected from the soundfiles listed in the menu below \n(note: you must have the CNMAT Depot installed properly for sounds to load)."
+>>>>>>> Stashed changes
                 }
             },
             {
@@ -420,8 +574,25 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
+<<<<<<< Updated upstream
                     "patching_rect": [ 104.5, 133.0, 530.0, 38.0 ],
                     "text": "PART 1:  Create two new presets using the model shown in p preset-settings-DUMP\nusing the 00_EC_SPAT5_1v_BASIC-tut.maxpat"
+=======
+                    "patching_rect": [ 114.0, 193.0, 530.0, 22.0 ],
+                    "text": "PART 1:  Create two new presets using the model shown in p preset-settings-DUMP"
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 14.0,
+                    "id": "obj-3",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 114.0, 121.0, 605.0, 53.0 ],
+                    "text": "Begin with the patch 00_EC_SPAT5_1v_BASIC-tut.maxpat\n found in the Music 158A GitHub repository in the folder _158a2026_ClassPatches/1006_IRCAM_SPAT5-tutorials"
+>>>>>>> Stashed changes
                 }
             },
             {
@@ -451,14 +622,43 @@
         "lines": [
             {
                 "patchline": {
+<<<<<<< Updated upstream
                     "destination": [ "obj-45", 0 ],
                     "source": [ "obj-13", 0 ]
+=======
+                    "destination": [ "obj-18", 0 ],
+                    "source": [ "obj-12", 0 ]
+>>>>>>> Stashed changes
+                }
+            },
+            {
+                "patchline": {
+<<<<<<< Updated upstream
+                    "destination": [ "obj-25", 0 ],
+=======
+                    "destination": [ "obj-19", 0 ],
+                    "order": 1,
+>>>>>>> Stashed changes
+                    "source": [ "obj-14", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-25", 0 ],
+                    "order": 0,
                     "source": [ "obj-14", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-14", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 0 ],
+                    "source": [ "obj-15", 0 ]
                 }
             },
             {
@@ -469,12 +669,23 @@
             },
             {
                 "patchline": {
+<<<<<<< Updated upstream
                     "destination": [ "obj-45", 0 ],
+=======
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-17", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+>>>>>>> Stashed changes
                     "source": [ "obj-18", 0 ]
                 }
             },
             {
                 "patchline": {
+<<<<<<< Updated upstream
                     "destination": [ "obj-18", 0 ],
                     "source": [ "obj-20", 0 ]
                 }
@@ -483,6 +694,9 @@
                 "patchline": {
                     "destination": [ "obj-26", 1 ],
                     "order": 0,
+=======
+                    "destination": [ "obj-26", 0 ],
+>>>>>>> Stashed changes
                     "source": [ "obj-25", 0 ]
                 }
             },
@@ -520,12 +734,18 @@
             },
             {
                 "patchline": {
+<<<<<<< Updated upstream
                     "destination": [ "obj-23", 1 ],
                     "source": [ "obj-45", 2 ]
+=======
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-6", 0 ]
+>>>>>>> Stashed changes
                 }
             },
             {
                 "patchline": {
+<<<<<<< Updated upstream
                     "destination": [ "obj-8", 1 ],
                     "source": [ "obj-45", 1 ]
                 }
@@ -534,6 +754,10 @@
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-45", 0 ]
+=======
+                    "destination": [ "obj-12", 0 ],
+                    "source": [ "obj-6", 1 ]
+>>>>>>> Stashed changes
                 }
             },
             {
