@@ -137,8 +137,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 66.66667199134827, 2039.506335735321, 95.0, 24.0 ],
-                    "text": "metro 400"
+                    "patching_rect": [ 66.66667199134827, 2039.506335735321, 72.0, 24.0 ],
+                    "text": "metro 225"
                 }
             },
             {
@@ -267,7 +267,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 36.11111283302307, 1340.2778416872025, 150.0, 47.0 ],
-                    "presentation_linecount": 2,
                     "text": "3\n. \n"
                 }
             },
@@ -387,8 +386,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 48.88889122009277, 1448.888957977295, 95.0, 24.0 ],
-                    "text": "metro 400"
+                    "patching_rect": [ 48.88889122009277, 1448.888957977295, 72.0, 24.0 ],
+                    "text": "metro 125"
                 }
             },
             {
@@ -446,7 +445,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 236.66667795181274, 1507.7778496742249, 68.0, 24.0 ],
+                    "patching_rect": [ 236.66667795181274, 1507.7778496742249, 61.0, 24.0 ],
                     "text": "octave 4"
                 }
             },
@@ -521,21 +520,6 @@
             },
             {
                 "box": {
-                    "id": "obj-17",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 397.7777967453003, 827.7778172492981, 189.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "filename": "markov_weighted_sequence..js",
-                        "parameter_enable": 0
-                    },
-                    "text": "js markov_weighted_sequence..js"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-18",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -547,21 +531,6 @@
                         "parameter_enable": 0
                     },
                     "text": "js markov_weighted_sequence..js"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-19",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 372.2222399711609, 727.7778124809265, 240.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "filename": "markov_fixed_sequence.js",
-                        "parameter_enable": 0
-                    },
-                    "text": "js markov_fixed_sequence.js"
                 }
             },
             {
@@ -665,8 +634,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 48.88889122009277, 817.7778167724609, 95.0, 24.0 ],
-                    "text": "metro 400"
+                    "patching_rect": [ 48.88889122009277, 817.7778167724609, 72.0, 24.0 ],
+                    "text": "metro 425"
                 }
             },
             {
@@ -913,8 +882,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 34.0, 170.0, 95.0, 24.0 ],
-                    "text": "metro 400"
+                    "patching_rect": [ 34.0, 170.0, 72.0, 24.0 ],
+                    "text": "metro 325"
                 }
             },
             {
